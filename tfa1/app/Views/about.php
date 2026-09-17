@@ -79,9 +79,18 @@
             background-color: white;
             border-left: 5px solid #2f6da1;
             border-radius: 8px;
-            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+            box-shadow:
+                0 0 15px rgba(25, 146, 226, 0.82),
+                0 0 20px rgba(172, 196, 216, 0.35);
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
         }
 
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow:
+                0 6px 20px rgba(0, 0, 0, 0.12),
+                0 0 30px rgba(47, 109, 161, 0.60);
+        }
         .card p {
             margin-bottom: 18px;
             font-size: 17px;

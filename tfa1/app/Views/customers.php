@@ -77,8 +77,19 @@
         .table-container {
             overflow-x: auto;
             background-color: white;
+            border: 1px solid rgba(47, 109, 161, 0.35);
             border-radius: 8px;
-            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+            box-shadow:
+                0 0 15px rgba(25, 146, 226, 0.82),
+                0 0 20px rgba(172, 196, 216, 0.35);
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+
+        .table-container:hover {
+            transform: translateY(-3px);
+            box-shadow:
+                0 6px 20px rgba(0, 0, 0, 0.12),
+                0 0 30px rgba(47, 109, 161, 0.60);
         }
 
         table {
@@ -89,7 +100,7 @@
         th,
         td {
             padding: 14px 16px;
-            border-bottom: 1px solid #ddd;
+             border-bottom: 2px solid #0d0b0b;
             text-align: left;
         }
 
@@ -99,7 +110,7 @@
         }
 
         tbody tr:hover {
-            background-color: #f1f7fc;
+            background-color: #2dc3e0;
         }
 
         tbody tr:last-child td {
