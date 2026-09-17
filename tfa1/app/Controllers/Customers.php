@@ -9,7 +9,7 @@ class Customers extends BaseController
             [
                 'full_name' => 'Richard Vester Pangilinan',
                 'email'     => 'RVPangilinan@gmail.com',
-                'phone'     => '09171234567',
+                'phone'     => '09847203348',
             ],
             [
                 'full_name' => 'Arwhen Natalie Ocampo',
@@ -19,7 +19,7 @@ class Customers extends BaseController
             [
                 'full_name' => 'Justin Marcus Torrejos',
                 'email'     => 'Just.In_MTorrejos@gmail.com',
-                'phone'     => '09191234567',
+                'phone'     => '09367712894',
             ],
             [
                 'full_name' => 'Fiona Gabrielle Castaneda',
